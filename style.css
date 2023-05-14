@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.clr{
+    clear: both
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* basic css end  */
+.full{
+    width: 100%;
+    
+}
+.main{
+    width: 1100px;
+   margin: auto;
+}
+.full-header{
+    background-color: darkgray;
+    padding: 20px 0;
+}
+.main-header{
+    display: flex;
+}
+.logo{
+    width: 30%;
+}
+.menu{
+    width: 70%;
+    text-align: center;
+}
+.main-menu ul li{
+    display: inline-block;
+}
+.main-menu ul li a{
+    color: #140b0b;
+    padding: 10px;
+    text-transform: capitalize;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 2px dotted darkolivegreen;
+    margin: 10px;
+    transition: all 0.5s linear;
+   
+}
+.main-menu ul li a:hover{
+    color: blueviolet;
+    border-color: chartreuse;
+    border-radius: 50%;
+    
+}
+
+.featured-post {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .post-title {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  .post-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+  .post{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  .full-content{
+    background-color: #242424;
+    padding: 100px 0;
+    
+}
+.main-cont{
+    display: flex
+}
+.cont-col{
+    width: 100%;
+    padding: 10px;    
+}
+.cont-txt{
+    color: #d6d1d1;
+    font-family: monospace;
+    text-align: center;
+    
+}
+.cont-txt h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.cont-txt p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.cont-col1{
+    width: 70%;
+    padding: 20px; 
+}
+.cont-txt1 h2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: azure;
+}
+.cont-txt1 p{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-family: monospace;
+    color: azure;
+    text-align: justify;
+    padding: 10px;
+    
+          
+}
+.cont-txt1 button{
+    border-style: none;
+    background-color: yellow;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.cont-txt1 button:hover{
+    background-color: transparent;
+    border-color:  yellow;
+}
+.cont-col1{
+    display: flex
+}
+.cont-image{
+   
+    width: 30%;
+    padding: 20px;
+}
+.full-service{
+    background-color: #242424;
+    padding: 100px 0;
+    
+}
+.service-table{
+    width: 1100px;
+    height: 500px;
+    background-color: #242424;
+    margin: auto;      
+}
+.table-row1{
+    height: 250px;
+    width: 1100px;
+    background-color: #242424;
+    padding: 10px;
+    display: flex
+    
+}
+.table-row2{
+    height: 250px;
+    width: 1100px;
+    background-color: #242424;
+    padding: 10px;
+    display: flex
+}
+.table-txt{
+    height: 250px;
+    width: 363px;
+    background-color: #151515;
+    
+}
+
+
+.table-txt h3{
+    font-size: 20px;
+    color: #B5B5B5;
+    padding: 15px;
+    font-family: serif;
+   
+}
+.table-txt p{
+    font-size: 20px;
+    color: #939393;
+    padding: 10px;
+    text-align: justify;
+}
+.full-blog{
+    background-color: #242424;
+    padding: 100px 0;
+}
+
+.blog-col{
+    width: 100%;
+    padding: 10px;    
+}
+.blog-txt{
+    color: #d6d1d1;
+    font-family: monospace;
+    text-align: center;
+    
+}
+.blog-txt h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.blog-txt p{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.blog-table{
+    background-color: #242424;
+    padding: 20px; 
+    text-align: center;
+    display: flex
+
+}
+.blog{
+    background-color: #242424;
+    padding: 20px;
+}
+.blog-menu{
+    color: #fff;
+    font-family: monospace;
+    text-align: center;
+    
+}
+.dsec {
+    padding: 10px;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+}
+.blog-menu button{
+    border-style: none;
+    background-color: rgb(94, 105, 94);
+    padding: 5px 10px;
+    color: #161414;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.blog-menu button:Hover{
+    background-color: transparent;
+    border-color:  bisque;
+
+}
+.blog{
+    margin: 100px 0;
+}
+.my-blog{
+    color: #fff;
+    font-family: monospace;
+    text-align: center;
+}
+.my-blog button{
+    border-style: none;
+    background-color: darkgrey;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.my-blog button:hover{
+    background-color: transparent;
+    border-color:  rgb(119, 119, 101);
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.art{
+    text-transform: capitalize;
+    text-align: center;
+}
+.art img{
+    height: 600px;
+    width: 800px;
+    margin: 20px 0;
+}
+.art p{
+    text-align: justify;
+    margin-top: 20px;
+}
+.social-sharing p{
+    margin-top: 20px;
+}
+.social-sharing ul{
+    margin-top: 20px;
+}
+footer p{
+    margin: 20px 0;
+}
+
+.get_touch{
+    padding: 100px 0;
+}
+.section-title{
+    text-align: center;
+}
+.add{
+    margin: 20px 0;
+}
+.txt{
+    margin: 20px;
+}
+#form_txt {
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    text-transform: capitalize;
+    border: 1px solid #353535;
+
+}
+#text_area {
+    resize: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100%;
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #353535;
+}
+.touch_btn{
+	display: block;
+	line-height: 33px;
+	padding: 1px 20px;
+	border-radius: 5px;
+	background-color: #744fa0;
+	color:#fff;
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	border:1px solid #744fa0;
+    transition: all 0.5s linear;
+    
+}
+.touch_btn:hover{
+    background-color: transparent;
+    color: #744fa0;
+}
